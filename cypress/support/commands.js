@@ -23,12 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add('login', (usuario, senha) => {
-    cy.get('#username').type(usuario)
-    cy.get('#password').type(senha)
-    cy.get('.woocommerce-form > .button').click()
-})
 
-Cypress.Commands.add('mensagemBoasVindas', () => {
-    cy.get('a > .hidden-xs')
-})
+import './ui'
+import './api'

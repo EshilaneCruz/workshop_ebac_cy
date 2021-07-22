@@ -1,0 +1,9 @@
+{
+    "projectId": "3jwfhf",
+    "baseUrl": "https://serverest.dev/",
+    "env":{
+        "video": false,
+        "allure": true,
+        "allureResultsPath": "allure-results"
+    }
+}

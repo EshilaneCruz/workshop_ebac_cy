@@ -1,0 +1,11 @@
+{
+  "usuarioCadastrado": {
+    "senha": "teste@123",
+    "usuario": "eshi"
+  },
+  "usuarioNaoCadastrado": {
+    "senha": "123456",
+    "usuario": "testeebac"
+  }
+
+}
